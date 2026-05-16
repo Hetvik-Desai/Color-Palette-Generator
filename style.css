@@ -20,9 +20,9 @@ body{
     background-color: #fff;
     border-radius: 1rem;
     padding: 2rem;
-    height: 330px;
-    width: 520px;
-    max-width: 800px;
+    height: 500px;
+    width: 700px;
+    max-width: 1000px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 /* Styling the heading */
@@ -51,4 +51,44 @@ h1{
 /* Adding settling down effect when its active */
 #generateBtn:active{
     transform: translateY(0);
+}
+/* Styling paletter container */
+.palette-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+/* Styling all the color boxes */
+.color-box{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+/* Adding hover effect */
+.color-box:hover{
+    transform: translateY(-5px);
+}
+/* Styling all the colors */
+.color{
+    height: 120px;
+    cursor: pointer;
+}
+/* Styling the container storing the hex values */
+.color-info{
+    background-color: #fff;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+/* Styling the hex values */
+.hex-value{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.copy-btn{
+    cursor: pointer;
+    color: #333;
 }
