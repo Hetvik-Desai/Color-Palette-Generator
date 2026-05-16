@@ -32,6 +32,7 @@ h1{
     color: #333;
     padding-bottom: 0.5rem;
 }
+/* Styling the generate button */
 #generateBtn{
     background: linear-gradient(45deg, #c3dac3, #d5ecd4);
     color: black;
@@ -41,5 +42,13 @@ h1{
     cursor: pointer;
     font-weight: 600;
     margin-bottom: 2rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+/* Adding hovering effects */
+#generateBtn:hover{
+    transform: translateY(-2px);
+}
+/* Adding settling down effect when its active */
+#generateBtn:active{
+    transform: translateY(0);
 }
