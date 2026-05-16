@@ -88,7 +88,14 @@ h1{
     font-weight: 500;
     letter-spacing: 0.5px;
 }
+/* Styling the copy button */
 .copy-btn{
     cursor: pointer;
     color: #333;
+}
+
+@media(max-width: 768px){
+    .palette-container{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
 }
