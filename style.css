@@ -20,14 +20,26 @@ body{
     background-color: #fff;
     border-radius: 1rem;
     padding: 2rem;
-    width: 500px;
+    height: 330px;
+    width: 520px;
     max-width: 800px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 /* Styling the heading */
 h1{
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     color: #333;
     padding-bottom: 0.5rem;
+}
+#generateBtn{
+    background: linear-gradient(45deg, #c3dac3, #d5ecd4);
+    color: black;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
 }
